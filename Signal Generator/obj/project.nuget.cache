@@ -1,0 +1,33 @@
+{
+  "version": 2,
+  "dgSpecHash": "87lJg4zITXY=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Administrator\\Documents\\projects\\Signal Generator\\Signal Generator\\Signal Generator\\Signal Generator.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Administrator\\.nuget\\packages\\clickabletransparentoverlay\\11.0.1\\clickabletransparentoverlay.11.0.1.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\imgui.net\\1.90.9.1\\imgui.net.1.90.9.1.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.0\\microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.extensions.logging\\8.0.0\\microsoft.extensions.logging.8.0.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.extensions.options\\8.0.0\\microsoft.extensions.options.8.0.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\nlog\\5.3.4\\nlog.5.3.4.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\nlog.extensions.logging\\5.3.13\\nlog.extensions.logging.5.3.13.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\sharpgen.runtime\\2.1.2-beta\\sharpgen.runtime.2.1.2-beta.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\sharpgen.runtime.com\\2.1.2-beta\\sharpgen.runtime.com.2.1.2-beta.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\sixlabors.imagesharp\\3.1.5\\sixlabors.imagesharp.3.1.5.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\system.buffers\\4.4.0\\system.buffers.4.4.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\system.codedom\\8.0.0\\system.codedom.8.0.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\system.management\\8.0.0\\system.management.8.0.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\system.numerics.vectors\\4.4.0\\system.numerics.vectors.4.4.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.4.0\\system.runtime.compilerservices.unsafe.4.4.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\vortice.d3dcompiler\\3.5.0\\vortice.d3dcompiler.3.5.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\vortice.direct3d11\\3.5.0\\vortice.direct3d11.3.5.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\vortice.directx\\3.5.0\\vortice.directx.3.5.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\vortice.dxgi\\3.5.0\\vortice.dxgi.3.5.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\vortice.mathematics\\1.7.8\\vortice.mathematics.1.7.8.nupkg.sha512"
+  ],
+  "logs": []
+}
