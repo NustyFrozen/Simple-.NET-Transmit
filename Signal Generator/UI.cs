@@ -1,6 +1,7 @@
 ﻿using Design_imGUINET;
 using ImGuiNET;
 using Microsoft.VisualBasic.Logging;
+using SoapySpectrum.Extentions;
 using SoapySpectrum.Extentions.Signal_Generator;
 using System;
 using System.Collections.Generic;
@@ -24,6 +25,8 @@ namespace Signal_Generator
         public string[] method = new string[] { "Specific","List","Sweep"};
         public double frequency = 0;
         public double level = 0;
+        public static bool hasCalibration = false;
+        public static Dictionary<double, double> caliData = new Dictionary<double, double>();
         void status()
         {
             var style = ImGui.GetStyle();
@@ -135,6 +138,9 @@ namespace Signal_Generator
         }
         static ImFontPtr PoppinsFont, IconFont;
         public bool initializedResources = false;
+        public bool CalibrationMode = false;
+        private double calibrationData;
+        private Dictionary<double,double> calibration = new Dictionary<double, double>();
         public unsafe void loadResources()
         {
             Logger.Debug("Loading Application Resources");
@@ -207,6 +213,42 @@ namespace Signal_Generator
                 } else
                 {
                     Transmission.endTask();
+                }
+            }
+            ImGui.SameLine();
+            button_text = CalibrationMode ?  "Finish Calibration": "Calibrate";
+            if (ImGui.Button(button_text))
+            {
+                CalibrationMode = !CalibrationMode;
+                if (!CalibrationMode)
+                {
+                    string data = string.Empty;
+                    foreach(KeyValuePair<double,double> pair in calibration)
+                    {
+                        data += $"{pair.Key},{pair.Value}\n";
+                    }
+                    File.WriteAllText("cal.csv", data);
+                }
+            }
+            if (CalibrationMode)
+            {
+                ImGui.LabelText("##calibrationText", $"[CALIBRATION] Actual Received Gain\n at FREQ {frequency}, LEVEL: {level}");
+                ImGui.InputDouble("##calibrationDB",ref calibrationData);
+                if (ImGui.Button("Update Cal Data"))
+                {
+                    if (CalibrationMode)
+                    {
+                        var data = level - calibrationData;
+                        if (calibration.ContainsKey(frequency))
+                        {
+                            calibration[frequency] = data;
+                        }
+                        else
+                        {
+                            calibration.Add(frequency, data);
+                        }
+                    }
+                    calibrationData = 0;
                 }
             }
             var cursorpos = ImGui.GetCursorPos();

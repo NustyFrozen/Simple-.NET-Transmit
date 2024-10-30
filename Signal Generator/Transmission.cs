@@ -82,6 +82,10 @@ namespace Signal_Generator
         }
         private static void sendPIPE(double frequency,double gain,bool transmitting)
         {
+            if (UI.hasCalibration)
+            {
+                gain += UI.caliData.MinBy(x => Math.Abs(x.Key - frequency)).Value;
+            }
             var cmd = $"{frequency}@{gain}@{((transmitting) ? 1:0)}";
             if (PipeCommunication == null) return;
 #if DEBUG
@@ -103,7 +107,7 @@ namespace Signal_Generator
                 if (message == "ack")
                 {
 #if DEBUG
-                    Logger.Debug("Received ack from python binding,");
+                    Logger.Debug("Received ack from python binding");
 #endif
                 } else
                 {

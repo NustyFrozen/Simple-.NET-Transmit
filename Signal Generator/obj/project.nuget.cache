@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "87lJg4zITXY=",
+  "dgSpecHash": "fGyIMqJNl8Q=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Administrator\\Documents\\projects\\Signal Generator\\Signal Generator\\Signal Generator\\Signal Generator.csproj",
+  "projectFilePath": "C:\\Users\\Administrator\\Documents\\projects\\Simple-.NET-Transmit\\Signal Generator\\Signal Generator.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Administrator\\.nuget\\packages\\clickabletransparentoverlay\\11.0.1\\clickabletransparentoverlay.11.0.1.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\imgui.net\\1.90.9.1\\imgui.net.1.90.9.1.nupkg.sha512",

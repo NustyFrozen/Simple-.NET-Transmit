@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Signal Generator")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+090173b3c394a4551d9d9dcdee1765c89f1275f0")]
 [assembly: System.Reflection.AssemblyProductAttribute("Signal Generator")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Signal Generator")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

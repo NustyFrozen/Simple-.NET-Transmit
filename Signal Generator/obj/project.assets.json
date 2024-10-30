@@ -1129,11 +1129,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Administrator\\Documents\\projects\\Signal Generator\\Signal Generator\\Signal Generator\\Signal Generator.csproj",
+      "projectUniqueName": "C:\\Users\\Administrator\\Documents\\projects\\Simple-.NET-Transmit\\Signal Generator\\Signal Generator.csproj",
       "projectName": "Signal Generator",
-      "projectPath": "C:\\Users\\Administrator\\Documents\\projects\\Signal Generator\\Signal Generator\\Signal Generator\\Signal Generator.csproj",
+      "projectPath": "C:\\Users\\Administrator\\Documents\\projects\\Simple-.NET-Transmit\\Signal Generator\\Signal Generator.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Administrator\\Documents\\projects\\Signal Generator\\Signal Generator\\Signal Generator\\obj\\",
+      "outputPath": "C:\\Users\\Administrator\\Documents\\projects\\Simple-.NET-Transmit\\Signal Generator\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
