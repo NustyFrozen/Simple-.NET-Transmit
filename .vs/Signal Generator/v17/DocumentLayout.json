@@ -3,6 +3,9 @@
   "WorkspaceRootPath": "C:\\Users\\Administrator\\Documents\\projects\\Simple-.NET-Transmit\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Administrator\\AppData\\Local\\SourceServer\\922d13fbd505a5b228680ba859090d36015c9b320353366e3f5ef520096f74b8\\src\\libraries\\System.IO.Pipes\\src\\System\\IO\\Pipes\\PipeStream.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B3027965-F6C8-44A9-9DD6-F81C3C57C221}|Signal Generator\\Signal Generator.csproj|c:\\users\\administrator\\documents\\projects\\simple-.net-transmit\\signal generator\\transmission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B3027965-F6C8-44A9-9DD6-F81C3C57C221}|Signal Generator\\Signal Generator.csproj|solutionrelative:signal generator\\transmission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -36,36 +39,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Thread.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\AppData\\Local\\SourceServer\\7a98ac24db9e131d85f336e63b335e5728d844a2d3fea51f3b65f4a71ce5ccb7\\src\\libraries\\System.Private.CoreLib\\src\\System\\Threading\\Thread.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\SourceServer\\7a98ac24db9e131d85f336e63b335e5728d844a2d3fea51f3b65f4a71ce5ccb7\\src\\libraries\\System.Private.CoreLib\\src\\System\\Threading\\Thread.cs",
-              "ToolTip": "C:\\Users\\Administrator\\AppData\\Local\\SourceServer\\7a98ac24db9e131d85f336e63b335e5728d844a2d3fea51f3b65f4a71ce5ccb7\\src\\libraries\\System.Private.CoreLib\\src\\System\\Threading\\Thread.cs",
-              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\SourceServer\\7a98ac24db9e131d85f336e63b335e5728d844a2d3fea51f3b65f4a71ce5ccb7\\src\\libraries\\System.Private.CoreLib\\src\\System\\Threading\\Thread.cs",
-              "ViewState": "AQIAACUBAAAAAAAAAAAqwG8BAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-22T15:07:22.51Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ImGuiRenderer.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\AppData\\Local\\SourceServer\\2e7b1b17e2ee777bd2c6d5c4b2ddacc8236533c0d6fea7986b610589baef394b\\ClickableTransparentOverlay\\ImGuiRenderer.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\SourceServer\\2e7b1b17e2ee777bd2c6d5c4b2ddacc8236533c0d6fea7986b610589baef394b\\ClickableTransparentOverlay\\ImGuiRenderer.cs",
-              "ToolTip": "C:\\Users\\Administrator\\AppData\\Local\\SourceServer\\2e7b1b17e2ee777bd2c6d5c4b2ddacc8236533c0d6fea7986b610589baef394b\\ClickableTransparentOverlay\\ImGuiRenderer.cs [Read Only]",
-              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\SourceServer\\2e7b1b17e2ee777bd2c6d5c4b2ddacc8236533c0d6fea7986b610589baef394b\\ClickableTransparentOverlay\\ImGuiRenderer.cs [Read Only]",
-              "ViewState": "AQIAACwAAAAAAAAAAAAqwD0AAAA8AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-16T18:01:37.602Z",
-              "EditorCaption": " [Read Only]"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "PipeStream.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\AppData\\Local\\SourceServer\\922d13fbd505a5b228680ba859090d36015c9b320353366e3f5ef520096f74b8\\src\\libraries\\System.IO.Pipes\\src\\System\\IO\\Pipes\\PipeStream.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\SourceServer\\922d13fbd505a5b228680ba859090d36015c9b320353366e3f5ef520096f74b8\\src\\libraries\\System.IO.Pipes\\src\\System\\IO\\Pipes\\PipeStream.cs",
+              "ToolTip": "C:\\Users\\Administrator\\AppData\\Local\\SourceServer\\922d13fbd505a5b228680ba859090d36015c9b320353366e3f5ef520096f74b8\\src\\libraries\\System.IO.Pipes\\src\\System\\IO\\Pipes\\PipeStream.cs",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\SourceServer\\922d13fbd505a5b228680ba859090d36015c9b320353366e3f5ef520096f74b8\\src\\libraries\\System.IO.Pipes\\src\\System\\IO\\Pipes\\PipeStream.cs",
+              "ViewState": "AQIAAFUBAAAAAAAAAAAqwF0BAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T11:39:11.845Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Transmission.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\projects\\Simple-.NET-Transmit\\Signal Generator\\Transmission.cs",
               "RelativeDocumentMoniker": "Signal Generator\\Transmission.cs",
@@ -78,7 +69,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
+              "Title": "Thread.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\AppData\\Local\\SourceServer\\7a98ac24db9e131d85f336e63b335e5728d844a2d3fea51f3b65f4a71ce5ccb7\\src\\libraries\\System.Private.CoreLib\\src\\System\\Threading\\Thread.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\SourceServer\\7a98ac24db9e131d85f336e63b335e5728d844a2d3fea51f3b65f4a71ce5ccb7\\src\\libraries\\System.Private.CoreLib\\src\\System\\Threading\\Thread.cs",
+              "ToolTip": "C:\\Users\\Administrator\\AppData\\Local\\SourceServer\\7a98ac24db9e131d85f336e63b335e5728d844a2d3fea51f3b65f4a71ce5ccb7\\src\\libraries\\System.Private.CoreLib\\src\\System\\Threading\\Thread.cs",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\SourceServer\\7a98ac24db9e131d85f336e63b335e5728d844a2d3fea51f3b65f4a71ce5ccb7\\src\\libraries\\System.Private.CoreLib\\src\\System\\Threading\\Thread.cs",
+              "ViewState": "AQIAACUBAAAAAAAAAAAqwG8BAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T15:07:22.51Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ImGuiRenderer.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\AppData\\Local\\SourceServer\\2e7b1b17e2ee777bd2c6d5c4b2ddacc8236533c0d6fea7986b610589baef394b\\ClickableTransparentOverlay\\ImGuiRenderer.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\SourceServer\\2e7b1b17e2ee777bd2c6d5c4b2ddacc8236533c0d6fea7986b610589baef394b\\ClickableTransparentOverlay\\ImGuiRenderer.cs",
+              "ToolTip": "C:\\Users\\Administrator\\AppData\\Local\\SourceServer\\2e7b1b17e2ee777bd2c6d5c4b2ddacc8236533c0d6fea7986b610589baef394b\\ClickableTransparentOverlay\\ImGuiRenderer.cs [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\SourceServer\\2e7b1b17e2ee777bd2c6d5c4b2ddacc8236533c0d6fea7986b610589baef394b\\ClickableTransparentOverlay\\ImGuiRenderer.cs [Read Only]",
+              "ViewState": "AQIAACwAAAAAAAAAAAAqwD0AAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T18:01:37.602Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Helper.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\projects\\Simple-.NET-Transmit\\Signal Generator\\Helper.cs",
               "RelativeDocumentMoniker": "Signal Generator\\Helper.cs",
@@ -90,7 +106,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Signal Generator",
               "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\projects\\Simple-.NET-Transmit\\Signal Generator\\Signal Generator.csproj",
               "RelativeDocumentMoniker": "Signal Generator\\Signal Generator.csproj",
@@ -101,7 +117,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "UI.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\projects\\Simple-.NET-Transmit\\Signal Generator\\UI.cs",
               "RelativeDocumentMoniker": "Signal Generator\\UI.cs",
@@ -113,7 +129,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\projects\\Simple-.NET-Transmit\\Signal Generator\\Program.cs",
               "RelativeDocumentMoniker": "Signal Generator\\Program.cs",
